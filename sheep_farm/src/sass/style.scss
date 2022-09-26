@@ -1,0 +1,26 @@
+@import 'base/variables';
+@import 'base/mixins';
+* {
+    font-family: 'Museo Sans Cyrl', sans-serif;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    position: relative;
+}
+@import 'blocks/header';
+@import 'blocks/promo';
+@import 'blocks/buttons';
+@import 'blocks/titles';
+@import 'blocks/catalog';
+@import 'blocks/carousel';
+@import 'libs/slick';
+@import 'blocks/about';
+@import 'blocks/footer';
+

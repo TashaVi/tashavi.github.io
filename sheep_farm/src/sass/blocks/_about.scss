@@ -1,0 +1,30 @@
+.about {
+    background-color: rgb(229, 243, 223);
+    padding: 40px 50px;
+    &__item {
+        display: flex;
+        width: 900px;
+        border: 2px solid #d0d0d0;
+        color: #6b6b6b;
+        margin-left: 100px;
+         &:nth-child(2), &:nth-child(3), {
+            margin-top: 30px;
+        }
+    }
+    &__img {
+        display: inline-block;
+        img {
+            width: 200px;
+            height: 100%;
+            object-fit: cover;
+    
+    }
+    }
+    &__text {
+        
+        width: 700px;
+        margin-left: 30px;
+        font-size: 20px;
+        color: black
+    }
+}
